@@ -18,31 +18,19 @@ public class CarDemo {
         car1.year = 2020;
         car1.price = 350_000;
 
-        car2.model = "Saab";
-        car2.price = 250_000;
-        car2.year = 2005;
+        car2.model = "Volksvagen";
+        car2.year = 2019;
+        car2.price = 300_000;
 
         Car car3 = new Car();
-        car3.model = "Ford";
-        car3.year = 1999;
-        car3.price = 38_000;
-
-        Car car4 = new Car();
-        car4.model = "Audi";
-        car4.year = 2001;
-        car4.price = 138_000;
-
-        Car car5 = new Car();
-        car5.model = "Mazda";
-        car5.year = 1982;
-        car5.price = 18_000;
+        car3.model = "Audi";
+        car3.year = 2018;
+        car3.price = 200_000;
 
         // System.out.println(car1.model + " kostar " + car1.price + "kr.");
         System.out.printf("%s från %d kostar %,d kr \n", car1.model, car1.year, car1.price); // Utskrift med formatering
         System.out.printf("%s från %d kostar %,d kr \n", car2.model, car2.year, car2.price);
         System.out.printf("%s från %d kostar %,d kr \n", car3.model, car3.year, car3.price);
-        System.out.printf("%s från %d kostar %,d kr \n", car4.model, car4.year, car4.price);
-        System.out.printf("%s från %d kostar %,d kr \n", car5.model, car5.year, car5.price);
 
     }
 }
